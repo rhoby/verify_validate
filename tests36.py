@@ -16,7 +16,7 @@ class ToolTester(unittest.TestCase):
         self.assertEqual('10', tools36.convert_binary(2), '2 is not convertible')
 
     def test_main3(self):
-        self.assertEqual(157, solutioneuler36.main3(100), 'check your sum')
+        self.assertEqual(157, solutioneuler36.main(100), 'check your sum')
 
 if __name__ == '__main__':
     unittest.main()

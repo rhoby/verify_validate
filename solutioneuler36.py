@@ -2,7 +2,7 @@ __author__ = 'hoby'
 
 from tools36 import *
 
-def main3(end):
+def main(end):
     palindromic = []
     palindromicBoth = []
     for i in range(end):
@@ -16,4 +16,4 @@ def main3(end):
     return sum_num
     #print sum_num
 
-print main3(1000000)
+print main(1000000)
