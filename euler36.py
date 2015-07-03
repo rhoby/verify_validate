@@ -44,5 +44,5 @@ def main(end):
     sum_num = sum(palindromicBoth)
     return sum_num
 
-print main(1000000)
+print main(100)
 
